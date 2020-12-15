@@ -1,0 +1,181 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+input[type=text],input[type=number],input[type=email],input[type=date],input[type=tel], select {
+  width: 100%;
+font-size:20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid Crimson;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+font-size:20px;
+  background-color: LightCoral;
+  color: white;
+  padding: 14px 20px;
+  margin: 0 80px 0 160px ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: Crimson ;
+}
+
+div {
+  border-radius: 5px;
+  width:95%;
+  font-size:30px;
+  padding: 20px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid Crimson;
+  padding: 10px;
+}
+.header img {
+  float: left;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+#h {
+width:97%;
+font-family:Papyrus;
+background: IndianRed ;
+}
+.m{
+border:25px double Crimson;
+margin:20px;
+}
+.c {
+  background-color: LightSalmon;
+  color: black;
+  padding:20px;
+}
+.column {
+  float: right;
+font-family:Florence;
+text-align:center;
+  width: 45%;
+  padding: 10px;
+}
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+.columnn {
+  float: right;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 20px 0 20px ;
+}
+@media screen and (max-width: 650px) {
+*{
+font-size:20px;
+}
+  .column, {
+    width: 100%;
+    display: block;
+  }
+#h {
+width:90%;
+}
+.para{
+float:left;
+text-align:left;
+margin-left:-230px;
+padding:20px;
+margin-right:35px;
+}
+.center{
+width:75%;
+}
+input[type=submit] {
+  margin: 0 40px 0 50px;
+}
+.header img {
+margin-left: -40px;
+width:90px;
+height:90px;
+}
+.columnn {
+  float: right;
+width:400px;
+height:800px;
+  margin-bottom: 16px;
+}
+card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+width:75%;
+  padding: 0 16px;
+}
+.row{
+padding-left: 70px;
+}
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row:::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: LightCoral;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: Crimson;
+}
+.footer {
+ width:100%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+</style>

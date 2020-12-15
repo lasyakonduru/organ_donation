@@ -1,0 +1,113 @@
+<html>
+<head>
+<title> GIFT YOUR ORGAN </title>
+<link rel="stylesheet" href="css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "icon" type = "image/png" href = "pictures/LOGO.png">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:LightCoral  ;
+font-size:30px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+ background-color: Crimson ;
+}
+.active {
+  background-color: FireBrick;
+}
+</style>
+</head>
+<body>
+<div id="h">
+<div class="header">
+<img src="pictures/LOGO.png" alt="logo" >
+<h1>GIFT YOUR ORGAN</h1>
+</div>
+</div>
+<ul class="ul">
+  <li><a href="Index.html">Home</a></li>
+  <li><a class="active" href="Donate.html">Donate</a></li>
+ <li><a href="stories.html">Stories</a></li>
+<li><a href="about.html">About US</a></li>
+</ul>
+<h3 style="font-size:35px;font-family:Lucida Handwriting;text-align:center;color:Maroon;"> GIFT your treasure here... letting others to live a second life..!!!</h3>
+
+<div class="center" style="  background-color: PeachPuff;">
+  <form action="thankyou.html" onsubmit="return validateForm()" method="post">
+  <p style="text-align:center;"><b>Please fill your details to Register to donate. </b></p>
+
+<label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Your name..">
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+Gender:<br>
+<b><input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Others</label><br></b>
+    
+<label for="age">Age:</label>
+    <input type="number" id="age" name="age"><br>
+
+<label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br>
+
+<label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="mail"><br>
+
+<label for="area">Locality:</label>
+    <input type="text" id="area" name="area">
+<label for="city">City:</label>
+    <input type="text" id="city" name="city">
+<label for="state">State:</label>
+    <input type="text" id="state" name="state">
+<label for="code">Pin Code:</label>
+    <input type="text" id="blood" name="bg">
+<label for="country">Nationality:</label>
+    <select id="country" name="country">
+<option value="ind">India</option>
+<option value="uk">United Kingdom</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">Unites States of America</option>
+
+    </select><br>
+
+<label for="blood">Blood Group:</label>
+    <input type="text" id="blood" name="bg">
+
+<label for="mobile">Telephone Number:</label>
+    <input type="tel" id="mobile" name="mob" placeholder="Your phone number..">
+
+   <input type="submit" value="Submit">
+  </form>
+</div><br>
+<br>
+<div class="footer">
+  <p>Copyright © 2020 Gift Your Organ. All Rights Reserved.<br></p>
+</div>
+</div>
+
+</body>
+</html>
